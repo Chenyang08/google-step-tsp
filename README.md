@@ -9,7 +9,7 @@ Description of solver
   
   IDEA: Using dynamics programming but only avaiable for n <= 16
   
- | Channlenge | Number of cities(N) | Total Distance |
+ | Challenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
@@ -21,7 +21,7 @@ Description of solver
   
   IDEA:
   
-  | Channlenge | Number of cities(N) | Total Distance |
+  | Challenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
@@ -34,7 +34,7 @@ Description of solver
   [2Opt_greedy.py](https://github.com/Chenyang08/google-step-tsp/blob/master/2Opt_greedy.py "") 
   IDEA: 
  
- | Channlenge | Number of cities(N) | Total Distance |
+ | Challenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
