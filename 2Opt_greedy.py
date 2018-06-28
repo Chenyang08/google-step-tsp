@@ -6,8 +6,8 @@ Created on Thu Jun 28 09:56:56 2018
 @author: karry  (JIANG Nan)
 """
 
-""" TSP using nearest neignbor heuristic and 2-opt algorithm
-    works better for 64 <= n < 512 """
+""" TSP using nearest neignbor heuristic (greedy) and 2-opt algorithm
+    works better with 64 <= n <= 512 """
 
 
 import math
@@ -82,7 +82,7 @@ def reversePath(path):
 
 def updateBestPath(bestPath):
     count = 0
-    while count < 3000:   # number of count (MaxCount)
+    while count < 10000:   # number of count (MaxCount)
         #print(calPathDist(bestPath))
         #print(bestPath.tolist())
         start, end, path = generateRandomPath(bestPath)
@@ -116,6 +116,6 @@ def trial(n):
 
 
 cities = read_input("input_5.csv")
-n = 30
+n = 15
 trial(n)
 
