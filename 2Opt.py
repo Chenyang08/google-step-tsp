@@ -6,7 +6,7 @@ Created on Wed Jun 27 17:24:52 2018
 @author: karry (JIANG Nan)
 """
 
-""" TSP using 2-opt algorithm, works better for n < 64 """
+""" TSP using 2-opt algorithm, works better with n <= 64 """
 
 
 import math
@@ -65,7 +65,7 @@ def reversePath(path):
 
 def updateBestPath(bestPath):
     count = 0
-    while count < 3000:
+    while count < 10000:
         #print(calPathDist(bestPath))
         #print(bestPath.tolist())
         start, end, path = generateRandomPath(bestPath)
@@ -98,6 +98,6 @@ def trial(n):
     print(best_total_distance_bestPath)
 
 
-cities = read_input("input_6.csv")
+cities = read_input("input_3.csv")
 n = 30 
 trial(n)
