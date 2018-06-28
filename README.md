@@ -1,15 +1,17 @@
 Travelling Salesman Problem Challenges
 ======
 
+Problem Descripton: [This page](https://github.com/Chenyang08/google-step-tsp/blob/master/README_Original.md "")
+
+Result of challenge: [Scoreboard](https://docs.google.com/spreadsheets/d/1Aa_NNQf7sFANuHKt0FTvUBQ83QO3OOKZjifhsmjOxqc/edit#gid=0 "")
 
 Description of solver
 ---------
-
-  [cy.py](https://github.com/Chenyang08/google-step-tsp/blob/master/cy.py "")
+### Solver: [cy.py](https://github.com/Chenyang08/google-step-tsp/blob/master/cy.py "")
   
   IDEA: Using dynamics programming but only avaiable for n <= 16
   
- | Challenge | Number of cities(N) | Total Distance |
+ | Chanllenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
@@ -17,11 +19,11 @@ Description of solver
 
 ----
 
-  [2Opt.py](https://github.com/Chenyang08/google-step-tsp/blob/master/2Opt.py "")
+ ### Solver: [2Opt.py](https://github.com/Chenyang08/google-step-tsp/blob/master/2Opt.py "")
   
   IDEA:
   
-  | Challenge | Number of cities(N) | Total Distance |
+  | Chanllenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
@@ -31,10 +33,10 @@ Description of solver
   
   
 ----
-  [2Opt_greedy.py](https://github.com/Chenyang08/google-step-tsp/blob/master/2Opt_greedy.py "") 
+### Solver:  [2Opt_greedy.py](https://github.com/Chenyang08/google-step-tsp/blob/master/2Opt_greedy.py "") 
   IDEA: 
  
- | Challenge | Number of cities(N) | Total Distance |
+ | Chanllenge | Number of cities(N) | Total Distance |
  |:---------: |    :----------:     |  :----------:  |
  |      0     |         5           |    **3291.62**     |
  | 1|8|**3778.72**|
